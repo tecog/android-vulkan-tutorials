@@ -24,6 +24,7 @@ android {
         targetSdkVersion 31
         versionCode 272
         versionName "1.1.0"
+        namespace 'com.android.example.vulkan.tutorials.five'
 
         // Shader compilation directives, put glsl shaders to app/src/main/shaders
         // android studio will pick them up and compile them into APK/assets/shaders
@@ -41,7 +42,7 @@ android {
     }
     externalNativeBuild {
         cmake {
-            version '3.18.1'
+            version '3.22.1'
             path 'src/main/cpp/CMakeLists.txt'
         }
     }

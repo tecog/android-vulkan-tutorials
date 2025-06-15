@@ -19,3 +19,7 @@ Pre-build shaderc with:
 Screenshot
 ------------
 <img src="./Tutorial_6_Screenshot.png" height="400px">
+
+```sh
+~/Android/Sdk/ndk/25.1.8937393/ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=~/Android/Sdk/ndk/25.1.8937393/sources/third_party/shaderc/Android.mk APP_STL:=c++_static APP_ABI:="arm64-v8a x86_64" APP_PLATFORM:=33 libshaderc_combined
+```
